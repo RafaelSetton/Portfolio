@@ -1,0 +1,9 @@
+.title-row {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.title-row a {
+    color: var(--text-color);
+}

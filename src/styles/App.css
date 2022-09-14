@@ -1,0 +1,61 @@
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#side-bar {
+    width: 30%;
+}
+
+#content {
+    width: 70%;
+}
+
+#cover-card {
+    text-align: center;
+    padding: 10px 25px;
+}
+
+#cover-card img {
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 255, 0);
+    padding: 1px;
+}
+
+#contacts {
+    padding: 15px 30px;
+}
+
+#techs {
+    text-align: center;
+    padding-top: 0;
+}
+
+#bio img {
+    margin: 15px;
+    margin-bottom: 3px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px #000000;
+
+}
+
+#bio img:nth-of-type(odd) {
+    float: left;
+}
+
+#bio img:nth-of-type(even) {
+    float: right;
+}
+
+#bio p {
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 21px;
+}

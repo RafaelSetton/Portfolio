@@ -1,0 +1,7 @@
+.Container {
+    background-color: var(--card-color);
+    color: var(--text-color);
+    border-radius: 30px;
+    padding: 12px 15px;
+    margin: 10px;
+}

@@ -1,0 +1,10 @@
+.TechTile {
+    background-color: rgb(237, 143, 159);
+    border-radius: 10px;
+    height: 25px;
+    color: rgb(76, 61, 61);
+    font-weight: 800;
+    width: 30%;
+    text-align: center;
+
+}

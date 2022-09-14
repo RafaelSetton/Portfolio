@@ -1,0 +1,28 @@
+:root {
+  --card-color: #3b384b;
+  --text-color: #948ec0;
+  --bg-color: #21212a;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-evenly;
+  gap: 10px 1%;
+}

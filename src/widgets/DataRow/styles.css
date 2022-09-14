@@ -1,0 +1,16 @@
+.data-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: var(--text-color);
+}
+
+.data-row svg {
+    align-self: center;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
